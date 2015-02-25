@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+h1, h2, h3{
+    font-family: 'Lobster', cursive;
+    color: #F25E0F;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 3em;
+}
+
+h3{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #E6195D;
+}
+
+img:hover{
+    box-shadow: 0 0 70px #45A1ED;
+    transition: all 1s ease;
+}
+
+body{
+    background-image: url(images/avenueqbackground.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+#container{
+    margin: 5% 20% 17% 5%;
+}
